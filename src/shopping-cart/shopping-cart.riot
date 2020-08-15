@@ -1,0 +1,15 @@
+<shopping-cart>
+  <p>I'm a shopping cart</p>
+
+  <script>
+    import { connect } from 'riot-meiosis'
+
+    const mapToState = (appState) => ({
+        ...appState
+    });
+
+    export default connect(mapToState)({})
+  </script>
+
+  <style></style>
+</shopping-cart>

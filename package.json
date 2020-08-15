@@ -1,0 +1,35 @@
+{
+  "name": "riot-meiosis-bug",
+  "version": "0.0.1",
+  "description": "riot-meiosis-bug",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/laznic/riot-meiosis-bug.git"
+  },
+  "author": "Niklas Lepistö <niklas@demtrees.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/laznic/riot-meiosis-bug/issues"
+  },
+  "homepage": "https://github.com/laznic/riot-meiosis-bug#readme",
+  "private": true,
+  "dependencies": {
+    "riot": "4.12.0",
+    "riot-meiosis": "^1.1.8"
+  },
+  "devDependencies": {
+    "@babel/polyfill": "7.2.5",
+    "@riotjs/compiler": "4.8.2",
+    "@riotjs/parcel-plugin-riot": "4.0.1",
+    "parcel-bundler": "1.12.4",
+    "postcss-modules-values": "2.0.0",
+    "postcss-preset-env": "6.5.0",
+    "postcss-scss": "2.0.0",
+    "precss": "4.0.0",
+    "sass": "1.26.3"
+  }
+}
